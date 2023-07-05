@@ -46,7 +46,7 @@ def main():
     end = False
     
     while True:
-        CLOCK.tick()
+        CLOCK.tick(15)
         if not end:
             drawScreen()
 
